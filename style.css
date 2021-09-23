@@ -516,13 +516,13 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    color: #FFFFFF;
 }
 
 .showScrollTop {
@@ -700,6 +700,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -742,6 +744,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-inline: auto;
 }
 
 .portfolio-row {
@@ -754,11 +757,12 @@ h4 {
 }
 
 .black-background {
-    background-color: #303030;
+    background-color: #331010;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
+    font-size: 22px;
     font-weight: 900;
     text-decoration: underline!important;
 }
@@ -772,7 +776,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #884429;
 }
 
 .tc-white {
@@ -780,7 +784,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #884429;
     color: #FFFFFF!important;
 }
 
@@ -823,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
